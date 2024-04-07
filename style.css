@@ -1,0 +1,130 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6d3ae3, #3d29d4); /* Darker blue gradient */
+  min-height: 100vh;
+  color: #fff; /* Light text for better contrast on dark background */
+}
+
+header {
+  background: transparent; /* Transparent header for gradient effect */
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 80%; /* Increased container width */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Space out logo and navigation */
+}
+
+.logo {
+  font-size: 5em; /* Significantly larger font size */
+  color: #9ea8e9; /* Sequoia blue for accent */
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Subtle metallic shadow */
+}
+
+.agent {
+  color: #e8e8e8; /* Lighter color for "Agent" within logo for contrast */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Light text for dark background */
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #3498db; /* Hover effect with accent color */
+}
+
+.hero {
+  padding: 80px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 80%;
+  margin: 0 auto;
+  /* width: 100%; /* Set to 100% to fill available space */
+  width: 80vw; /* Use 80 viewport widths (more responsive) */
+}
+
+h1 {
+  font-size: 4em; /* Maintained large font size */
+  line-height: 1.2;
+  margin: 0 0 20px;
+  letter-spacing: 1px;
+  animation: animate-text 3s infinite alternate ease-in-out; /* Text animation */
+}
+
+p1 {
+    font-size: 2em; /* Maintained large font size */
+    line-height: 1.2;
+    margin: 0 0 20px;
+    letter-spacing: 1px;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+
+@keyframes animate-text {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  10
+  
+}
+  
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+}
+
+.button:hover {
+  background: #2980b9;
+}
+
+
+display: inline-block;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+line-height: 20px;
+font-weight: 600;
+border-radius: 8px;
+padding: 14px 24px;
+border: none;
+transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+color: #fff;
